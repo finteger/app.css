@@ -1,13 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: lightblue;
+    background-image: url('/images/Star.jpg');
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
 
 #loginContainer {
     width: 80%; /* Smaller width for responsiveness */
-    max-width: 200px; /* Limit maximum width */
+    max-width: 300px; /* Limit maximum width */
+    min-height: 400px;
     margin: 20px auto;
     padding: 10px; /* Increased padding */
     border: 1px solid #ccc;
@@ -22,7 +24,7 @@ body {
 h3 {
     text-align: center;
     margin-bottom: 10px;
-    font-size: 0.6rem; /* Relative font size */
+    font-size: 1.1rem; /* Relative font size */
     color: #1DA1F2; /* Twitter blue color */
 }
 
@@ -31,7 +33,7 @@ label {
     color:#fff;
     display: block;
     font-weight: bold;
-    font-size: 0.4rem; /* Relative font size */
+    font-size: 0.9rem; /* Relative font size */
 }
 
 input[type="text"],
@@ -42,7 +44,7 @@ input[type="password"] {
     border-radius: 5px;
     margin-bottom: 5px; /* Reduced margin */
     box-sizing: border-box;
-    font-size: 0.4rem; /* Relative font size */
+    font-size: 1.4rem; /* Relative font size */
 }
 
 input {
@@ -53,19 +55,19 @@ margin-top:10px;
 button {
     display: block;
     width: 100%;
-    padding: 6px;
+    padding: 12px;
     border: none;
     border-radius: 10px;
     background: #1DA1F2; /* Twitter blue color */
     color: #fff;
-    font-size: 0.45rem; /* Relative font size */
+    font-size: 0.7rem; /* Relative font size */
     cursor: pointer;
-    margin-bottom: 3px; /* Reduced margin between buttons */
+    margin-bottom: 8px; /* Reduced margin between buttons */
 }
 
 #spacer {
     padding:21px;
-    font-size:6px;
+    font-size:13px;
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Align links to the left */
