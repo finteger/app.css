@@ -44,7 +44,7 @@ input[type="password"] {
     border-radius: 5px;
     margin-bottom: 5px; /* Reduced margin */
     box-sizing: border-box;
-    font-size: 1.4rem; /* Relative font size */
+    font-size: 0.9rem; /* Relative font size */
 }
 
 input {
@@ -85,6 +85,27 @@ button:hover {
     align-items: center;
     text-align:left !important;
  }
+
+ table{
+ border: 1px solid lightblue;
+ margin: 25px 0;
+ font-size: 0.9em;
+ font-family: sans-serif;
+ min-width: 400px;
+ box-shadow:  0 0 20px rgba(0, 0, 0, 0.15);
+ }
+
+ tr{
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+
+ }
+
+ th,td{
+ padding: 12px 15px;
+ }
+
 
 /* Responsive adjustments */
 @media (max-width: 480px) {
